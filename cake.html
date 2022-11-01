@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<title>cake</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="icon" href="favicon.ico">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+    <style>
+      @import url("https://fonts.googleapis.com/css?family=Open+Sans:400,400italic,600,600italic,800,800italic");
+      body {
+        background-color: #3a2101;
+      }
+      a {
+        font-family: "Open Sans", Helvetica, sans-serif;
+      }
+      h2, h3{
+        font-family: "Open Sans", Helvetica, sans-serif;
+      }
+      div img:hover{
+        cursor : pointer;
+        opacity: 0.6; /* 밝기 조절 */
+        transition: opacity 0.35s ease-in-out;
+      }
+      .box {
+        position: relative;
+      }
+      .box img {
+        width: 100%;
+      }
+      .box .info {
+        color: #fff;
+        position: absolute; left: 0; bottom: 0;
+        background: rgba(0,0,0,0.5);
+        width: 100%;
+        padding: 15px;
+        box-sizing: border-box;
+        opacity: 0;
+        transition: opacity 0.35s ease-in-out;
+      }
+      .box:hover .info {
+        opacity: 1;
+      }
+      .box .info p {
+        text-align: center;
+        font-size: 15px;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        text-transform: uppercase;
+      }
+    </style>
+    
+<body>
+
+<!-- Header -->
+<header class="w3-display-container w3-content w3-center" style="max-width:1500px">
+  <img class="w3-image" src="cake/cakeimage1.jpg" alt="" width="1500" height="600">
+  <div class="w3-display-middle w3-padding-large w3-border w3-wide w3-text-light-grey w3-center">
+    <h2 class="w3-hide-medium w3-hide-small w3-xxxlarge"><b>CAKE</b></h2>
+    <h3 class="w3-hide-large" style="white-space:nowrap"><b>CAKE</b></h3>
+  </div>
+  
+  <!-- Navbar (placed at the bottom of the header image) -->
+  <div class="w3-bar w3-light-grey w3-round w3-display-bottommiddle w3-hide-small" style="bottom:-16px">
+    <a href="main.html" class="w3-bar-item w3-button">HOME</a>
+    <a href="cookie.html" class="w3-bar-item w3-button">COOKIE</a>
+    <a href="bread.html" class="w3-bar-item w3-button">BREAD</a>
+    <a href="cart.html" class="w3-bar-item w3-button">CART</a>
+    <a href="mypage.html" class="w3-bar-item w3-button">MY PAGE</a>
+  </div>
+</header>
+
+<!-- Navbar on small screens -->
+<div class="w3-center w3-light-grey w3-padding-16 w3-hide-large w3-hide-medium">
+<div class="w3-bar w3-light-grey">
+  <a href="main.html" class="w3-bar-item w3-button">HOME</a>
+  <a href="cookie.html" class="w3-bar-item w3-button">COOKIE</a>
+  <a href="bread.html" class="w3-bar-item w3-button">BREAD</a>
+  <a href="cart.html" class="w3-bar-item w3-button">CART</a>
+  <a href="mypage.html" class="w3-bar-item w3-button">MY PAGE</a>
+</div>
+</div>
+    
+<!-- Page content -->
+<div class="w3-content w3-padding-large w3-margin-top">
+
+    
+<!-- Images -->
+<div class="w3-row" id="photo" style="margin-bottom:128px">
+  <div class="w3-third">
+    <div class="box">
+      <div class="img">
+        <img src="cake/cake6.jpg" onclick="location.href='cakerecipe1.html';">
+      </div>
+      <div class="info">
+        <p>레몬 케이크</p>
+      </div>
+    </div>
+    <div class="box">
+      <div class="img">
+        <img src="cake/cake2.jpg" onclick="location.href='#';">
+      </div>
+      <div class="info">
+        <p>생크림카스테라</p>
+      </div>
+    </div>
+    <div class="box">
+      <div class="img">
+        <img src="cake/cake3.jpg" onclick="location.href='#';">
+      </div>
+      <div class="info">
+        <p>망고 무스 케이크</p>
+      </div>
+    </div>
+    <div class="box">
+      <div class="img">
+        <img src="cake/cake4.jpg" onclick="location.href='#';">
+      </div>
+      <div class="info">
+        <p>머핀</p>
+      </div>
+    </div>
+    <div class="box">
+      <div class="img">
+        <img src="cake/cake5.jpg" onclick="location.href='#';">
+      </div>
+      <div class="info">
+        <p>쑥 블론디</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="w3-third">
+    <div class="box">
+      <div class="img">
+        <img src="cake/cake1.jpg" onclick="location.href='#';">
+      </div>
+      <div class="info">
+        <p>딸기 쇼트 케이크</p>
+      </div>
+    </div>
+    <div class="box">
+      <div class="img">
+        <img src="cake/cake7.jpg" onclick="location.href='#';">
+      </div>
+      <div class="info">
+        <p>말차 파운드 케이크</p>
+      </div>
+    </div>
+    <div class="box">
+      <div class="img">
+        <img src="cake/cake8.jpg" onclick="location.href='#';">
+      </div>
+      <div class="info">
+        <p>오렌지 파운드 케이크</p>
+      </div>
+    </div>
+    <div class="box">
+      <div class="img">
+        <img src="cake/cake9.jpg" onclick="location.href='#';">
+      </div>
+      <div class="info">
+        <p>까망쿠키 케이크</p>
+      </div>
+    </div>
+    <div class="box">
+      <div class="img">
+        <img src="cake/cake10.jpg" onclick="location.href='#';">
+      </div>
+      <div class="info">
+        <p>카스테라</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="w3-third">
+    <div class="box">
+      <div class="img">
+        <img src="cake/cake11.jpg" onclick="location.href='#';">
+      </div>
+      <div class="info">
+        <p>크림치즈 머핀</p>
+      </div>
+    </div>
+    <div class="box">
+      <div class="img">
+        <img src="cake/cake12.jpg" onclick="location.href='#';">
+      </div>
+      <div class="info">
+        <p>딸기 롤케이크</p>
+      </div>
+    </div>
+    <div class="box">
+      <div class="img">
+        <img src="cake/cake13.jpg" onclick="location.href='#';">
+      </div>
+      <div class="info">
+        <p>구겔호프</p>
+      </div>
+    </div>
+    <div class="box">
+      <div class="img">
+        <img src="cake/cake14.jpg" onclick="location.href='#';">
+      </div>
+      <div class="info">
+        <p>딸기 무스 케이크</p>
+      </div>
+    </div>
+    <div class="box">
+      <div class="img">
+        <img src="cake/cake15.jpg" onclick="location.href='#';">
+      </div>
+      <div class="info">
+        <p>청포도 타르트</p>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+
+<!-- Footer -->
+<footer class="w3-center w3-black w3-padding-64">
+  <a href="#" class="w3-button w3-light-grey"><i class="fa fa-arrow-up w3-margin-right"></i>올라가기</a>
+  <div class="w3-xlarge w3-section">
+    <i class="fa fa-facebook-official w3-hover-opacity"></i>
+    <i class="fa fa-instagram w3-hover-opacity"></i>
+    <i class="fa fa-snapchat w3-hover-opacity"></i>
+    <i class="fa fa-pinterest-p w3-hover-opacity"></i>
+    <i class="fa fa-twitter w3-hover-opacity"></i>
+    <i class="fa fa-linkedin w3-hover-opacity"></i>
+  </div>
+</footer>
+
+</body>
+</html>

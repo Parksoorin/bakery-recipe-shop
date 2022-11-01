@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="ko">
+   <head>
+        <meta charset = 'utf-8'>
+        <title>공지사항 등록</title>
+    </head>
+    <style>
+        @import url("https://fonts.googleapis.com/css?family=Open+Sans:400,400italic,600,600italic,800,800italic");
+        h1 {
+            color: white;
+            font-family: "Open Sans", Helvetica, sans-serif;
+            margin: 20px auto;
+            text-align: center;
+            padding: 80px 100px 0px 100px;
+        }
+        body {
+            background-color: #3a2101;
+        }
+        .free {
+            background-color: white;
+            width: 50%;
+            margin: 20px auto;
+            padding: 60px 100px 60px 100px;
+        }
+        .free table.table2{
+            border-collapse: separate;
+            border-spacing: 1px;
+            text-align: left;
+            line-height: 1.5;
+            border-top: 1px solid #ccc;
+            margin : 20px 10px;
+        }
+        .free table.table2 tr {
+            width: 100px;
+            padding: 10px;
+            font-weight: bold;
+            vertical-align: top;
+            border-bottom: 1px solid #ccc;
+        }
+        .free table.table2 td {
+            width: 500px;
+            padding: 10px;
+            vertical-align: top;
+            border-bottom: 1px solid #ccc;
+        }
+        .button {width: 90%; margin: 20px auto 5px; text-align: right;}
+        .button a {
+            background: rgb(100,100,100); border-radius: 3px;
+            padding: 6px 8px; margin: 0px; text-decoration: none; color: white;
+        }
+        .button a:hover {background-color: #3a2101}
+    </style>
+    <body>
+        <section>
+            <h1>NOTICE WRITE</h1>
+        </section>
+        <div class="free">
+            <table  style="padding-top:0px" align = center width=100% border=0 cellpadding=2 >      
+            <tr>
+                <td bgcolor=white>
+                    <table class = "table2">
+                    <tr>
+                        <td>작성자</td>
+                        <td><input type = "text" size=60 id = "writer-name" autofocus placeholder = "닉네임을 입력하세요" required></td>
+                    </tr>
+                    <tr>
+                        <td>제목</td>
+                        <td><input type = "text" size=60 autofocus placeholder = "제목을 입력하세요" required></td>
+                    </tr>
+                    <tr>
+                        <td>내용</td>
+                        <td><textarea id = "goods-info" cols = "60" rows = "10"  placeholder = "내용을 입력하세요"></textarea></td>
+                    </tr>
+                    <tr>
+                        <td>비밀번호</td>
+                        <td><input type = password name = pw size=10 maxlength=10></td>
+                    </tr>
+                    </table>
+                </td>
+            </tr>
+            </table>
+        <div class="button">
+            <a href="#">등록하기</a>
+            <a href="notice.html">돌아가기</a></div>
+        </div>
+    </body>
+</html>

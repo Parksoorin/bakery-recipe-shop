@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>공지사항</title>
+    <style>
+        @import url("https://fonts.googleapis.com/css?family=Open+Sans:400,400italic,600,600italic,800,800italic");
+        h1 {
+            color: white;
+            font-family: "Open Sans", Helvetica, sans-serif;
+            margin: 20px auto;
+            text-align: center;
+            padding: 80px 100px 0px 100px;
+        }
+        /* 자유게시판 */
+        body { background-color: #3a2101}
+        .free {
+            background-color: white;
+            width: 70%;
+            margin: 20px auto;
+            padding: 60px 100px 60px 100px;
+        }
+        .free table {width: 700px; margin: 0 auto; border-collapse: collapse; table-layout: fixed;}
+        .free th {border-top: 3px solid #3a2101; border-bottom: 3px solid #3a2101;}
+        .free td {border-bottom: 1px solid gray;}
+        .free .col1, .free .col4 {width: 8%;}
+        .free .col3, .free .col5 {width: 14%;}
+        .free th, .free td {padding: 10px;}
+        .free td + td {text-align: left; white-space: nowrap; overflow: hidden; text-overflow: ellipsis;}
+        .free td, .free td + td + td {text-align: center;}
+        .free a {text-decoration: none; color: rgb(80, 80, 80);}
+        .free a:hover {color: #3a2101}
+        .free a + span {font-size: .7em; color: black}
+        .free .face {width: 12px;}
+        .free .button {width: 700px; margin: 20px auto 5px; text-align: right;}
+        .free .button a {
+            background: rgb(100,100,100); border-radius: 3px;
+            padding: 6px 8px; margin: 0px; text-decoration: none; color: white;
+        }
+        .free .button a:hover {background-color: #3a2101}
+        .free .number {width: 150px; margin: 0 auto;}
+        .free .number::after {content: ''; display: block; clear: both;}
+        .free .number div {
+            width:30px; height: 26px; background: rgb(218, 218, 218); border-radius: 5px;
+            text-align: center; margin: 10px 10px 0px; padding: 4px 0 0; float: left;
+        }
+    </style>
+</head>
+<body>
+    <section>
+        <h1>NOTICE</h1>
+    </section>
+    <main>
+        <div class="free">
+            <table>
+                <tr>
+                    <th class="col1">번호</th>
+                    <th class="col2">제목</th>
+                    <th class="col3">작성자</th>
+                    <th class="col4">조회수</th>
+                    <th class="col5">작성일</th>
+                </tr>
+                <tr>
+                    <td>320</td>
+                    <td><a href="detail.html">제목</a><span> [6]</span></td>
+                    <td>회원1 <img src="images/face/320.png" class="face"></td>
+                    <td>22</td>
+                    <td>2022-01-20</td>
+                </tr>
+                <tr>
+                    <td>319</td>
+                    <td><a href="detail.html">제목</a><span> [12]</span></td>
+                    <td>회원2 <img src="images/face/319.png" class="face"></td>
+                    <td>41</td>
+                    <td>2022-01-18</td>
+                </tr>
+                <tr>
+                    <td>318</td>
+                    <td><a href="detail.html">제목</a><span> [1]</span></td>
+                    <td>회원3 <img src="images/face/318.png" class="face"></td>
+                    <td>7</td>
+                    <td>2022-01-15</td>
+                </tr>
+                <tr>
+                    <td>317</td>
+                    <td><a href="detail.html">제목</a><span> [21]</span></td>
+                    <td>회원4 <img src="images/face/317.png" class="face"></td>
+                    <td>56</td>
+                    <td>2022-01-13</td>
+                <tr>
+                    <td>316</td>
+                    <td><a href="detail.html">제목</a><span> [15]</span></td>
+                    <td>회원5 <img src="images/face/316.png" class="face"></td>
+                    <td>32</td>
+                    <td>2022-01-10</td>
+                </tr>
+                <tr>
+                    <td>315</td>
+                    <td><a href="detail.html">제목</a><span> [10]</span></td>
+                    <td>회원6 <img src="images/face/315.png" class="face"></td>
+                    <td>38</td>
+                    <td>2022-01-08</td>
+                </tr>
+                <tr>
+                    <td>314</td>
+                    <td><a href="detail.html">제목</a><span> [0]</span></td>
+                    <td>회원7 <img src="images/face/314.png" class="face"></td>
+                    <td>5</td>
+                    <td>2022-01-05</td>
+                <tr>
+                    <td>313</td>
+                    <td><a href="detail.html">제목</a><span> [5]</span></td>
+                    <td>회원8 <img src="images/face/313.png" class="face"></td>
+                    <td>15</td>
+                    <td>2022-01-03</td>
+                </tr>
+                <tr>
+                    <td>312</td>
+                    <td><a href="detail.html">제목</a><span> [6]</span></td>
+                    <td>회원9 <img src="images/face/312.png" class="face"></td>
+                    <td>30</td>
+                    <td>2022-01-01</td>
+                </tr>
+                <tr>
+                    <td>311</td>
+                    <td><a href="detail.html">제목</a><span> [3]</span></td>
+                    <td>회원10 <img src="images/face/311.png" class="face"></td>
+                    <td>24</td>
+                    <td>2022-01-01</td>
+                </tr>
+            </table>
+
+            <div class="button"><a href="noticeWrite.html">글쓰기</a>
+            <a href="main.html">돌아가기</a></div>
+            <div class="number">
+                <div><</div>
+                <div>1</div>
+                <div>></div>
+            </div>
+        </div>
+    </main>
+</body>
+</html>

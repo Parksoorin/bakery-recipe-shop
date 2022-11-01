@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<title>충전</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="icon" href="favicon.ico">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+    <style>
+        @import url("https://fonts.googleapis.com/css?family=Open+Sans:400,400italic,600,600italic,800,800italic");
+        body {
+            background-color: #3a2101;
+        }
+        a, p, h2, h3 {
+            font-family: "Open Sans", Helvetica, sans-serif;
+        }
+        form {
+            width: 100%;
+            margin: 0px auto;
+            background: white;
+            padding: 0px 120px 0px 120px;
+            text-align: center;
+            -webkit-box-shadow: 2px 2px 3px rgba(0,0,0,0.1);
+            box-shadow: 2px 2px 3px rgba(0,0,0,0.1);
+        }
+        div hr {
+            color: #3a2101;
+        }
+        div ul li .coin{
+            display: inline-block;
+            padding: 3px 10px;
+            background: gray;
+            font-weight: bold;
+            color: #ffffff;
+            border: none;
+            outline: none;
+            border-radius: 3px;
+            cursor: pointer;
+            transition: ease .3s;
+        }
+        div ul li .coin:hover{
+            background: #91754c;
+            color: #ffffff;
+        }
+        button {
+            display: inline-block;
+            padding: 12px 24px;
+            background: gray;
+            font-weight: bold;
+            color: #ffffff;
+            border: none;
+            outline: none;
+            border-radius: 3px;
+            cursor: pointer;
+            transition: ease .3s;
+        }
+        button:hover {
+            background: #91754c;
+            color: #ffffff;
+        }
+        h2 {
+            font-family: "Open Sans", Helvetica, sans-serif;
+            color: #ffffff;
+            margin: 0px auto;
+            text-align: center;
+            padding: 150px 100px 0px 100px;
+        }
+        li {
+            list-style: none;
+        }
+        label {
+            display: block;
+            position: relative;
+            margin: 40px 0px;
+        }
+        .label-txt {
+            position: absolute;
+            top: -1.6em;
+            padding: 10px;
+            font-family: sans-serif;
+            font-size: .8em;
+            letter-spacing: 1px;
+            color: rgb(120,120,120);
+            transition: ease .3s;
+        }
+        .input {
+            width: 100%;
+            padding: 10px;
+            background: transparent;
+            border: none;
+            outline: none;
+        }
+        .line-box {
+            position: relative;
+            width: 100%;
+            height: 2px;
+            background: #BCBCBC;
+        }
+        .line {
+            position: absolute;
+            width: 0%;
+            height: 2px;
+            top: 0px;
+            left: 50%;
+            transform: translateX(-50%);
+            background: #3a2101;
+            transition: ease .6s;
+        }
+        .input:focus + .line-box .line {
+            width: 100%;
+        }
+        .label-active {
+            top: -3em;
+        }
+    </style>
+
+<body>
+    <!-- Header -->
+    <header class="w3-display-container w3-content w3-center" style="max-width:1500px">
+        <img class="w3-image" src="images/banner2.JPG" alt="" width="934" height="600">
+        <div class="w3-display-middle w3-padding-large w3-border w3-wide w3-text-light-grey w3-center">
+            <h2 class="w3-hide-medium w3-hide-small w3-xxlarge"><b>MY PAGE</b></h2>
+            <h3 class="w3-hide-large" style="white-space:nowrap"><b>MY PAGE</b></h3>
+        </div>
+  
+    <!-- Navbar (placed at the bottom of the header image) -->
+        <div class="w3-bar w3-light-grey w3-round w3-display-bottommiddle w3-hide-small" style="bottom:-16px">
+            <a href="main.html" class="w3-bar-item w3-button">HOME</a>
+            <a href="cookie.html" class="w3-bar-item w3-button">COOKIE</a>
+            <a href="cake.html" class="w3-bar-item w3-button">CAKE</a>
+            <a href="bread.html" class="w3-bar-item w3-button">BREAD</a>
+            <a href="cart.html" class="w3-bar-item w3-button">CART</a>
+        </div>
+    </header>
+
+    <!-- Navbar on small screens -->
+    <div class="w3-center w3-light-grey w3-padding-16 w3-hide-large w3-hide-medium">
+        <div class="w3-bar w3-light-grey">
+            <a href="main.html" class="w3-bar-item w3-button">HOME</a>
+            <a href="cookie.html" class="w3-bar-item w3-button">COOKIE</a>
+            <a href="cake.html" class="w3-bar-item w3-button">CAKE</a>
+            <a href="bread.html" class="w3-bar-item w3-button">BREAD</a>
+            <a href="cart.html" class="w3-bar-item w3-button">CART</a>
+        </div>
+    </div>
+    
+    <!-- Page content -->
+    <div class="w3-content w3-padding-large w3-margin-top">
+        <!-- form -->
+        <form>
+            <div id="material" style="width: 600px" class="w3-container w3-content w3-padding-64">
+                <hr>
+                <ul>
+                    <li><p>현재 보유 포인트 : 38,000</p></li>
+                    <label>
+                        <p class="label-txt">충전할 금액</p>
+                        <input type="text" class="input">
+                        <div class="line-box">
+                            <div class="line"></div>
+                        </div>
+                    </label>
+                    <br>
+                    <li>
+                        <button class="coin">충전하기</button>
+                        <button class="coin" type="button" onclick="location.href='mypage.html';">돌아가기</button>
+                    </li>
+                </ul>
+                <hr>
+            </div>
+        </form>
+        <h2><b>추천 레시피</b></h2>
+        <div id="goods" class="w3-#3a2101">
+            <div style="max-width: 800px" class="w3-container w3-content w3-padding-34">
+                <div style="margin: 0 -16px;" class="w3-row-padding w3-padding-32">
+                    <div id="" class="w3-third w3-margin-bottom">
+                        <img src="cookie/cookie2.jpg" style="width: 100%">
+                        <div class="w3-container w3-white">
+                            <center><p><b>잼 쿠키</b></p></center>
+                            <center><p>Jam Cookies</p></center>
+                            <center><button class="w3-button w3-light-gray w3-margin-bottom">이동하기</button></center>
+                        </div>
+                    </div>
+                    <div id="" class="w3-third w3-margin-bottom">
+                        <img src="cake/cake1.jpg" style="width: 100%">
+                        <div class="w3-container w3-white">
+                            <center><p><b>딸기 쇼트 케이크</b></p></center>
+                            <center><p>Strawberry Short Cake</p></center>
+                            <center><button class="w3-button w3-light-gray w3-margin-bottom">이동하기</button></center>
+                        </div>
+                    </div>
+                    <div id="" class="w3-third w3-margin-bottom">
+                        <img src="bread/bread1.jpg" style="width: 100%">
+                        <div class="w3-container w3-white">
+                            <center><p><b>시나몬롤</b></p></center>
+                            <center><p>Cinamon Roll</p></center>
+                            <center><button class="w3-button w3-light-gray w3-margin-bottom">이동하기</button></center>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Footer -->
+    <footer class="w3-center w3-black w3-padding-64">
+        <a href="#" class="w3-button w3-light-grey"><i class="fa fa-arrow-up w3-margin-right"></i>올라가기</a>
+        <div class="w3-xlarge w3-section">
+            <i class="fa fa-facebook-official w3-hover-opacity"></i>
+            <i class="fa fa-instagram w3-hover-opacity"></i>
+            <i class="fa fa-snapchat w3-hover-opacity"></i>
+            <i class="fa fa-pinterest-p w3-hover-opacity"></i>
+            <i class="fa fa-twitter w3-hover-opacity"></i>
+            <i class="fa fa-linkedin w3-hover-opacity"></i>
+        </div>
+    </footer>
+</body>
+</html>
