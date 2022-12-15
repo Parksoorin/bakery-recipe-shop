@@ -19,6 +19,10 @@ Html, CSS, JS 사용되었다.
 또한 레시피에 나온 재료를 개별 구매 가능하다. 
 
 
+# USECASE
+<img src="https://user-images.githubusercontent.com/101718825/207908862-969ead92-20ec-4f0b-b504-7f7fe4f909d9.png" width="90%"></img>
+
+
 
 # 아쉬운 점
 프론트를 Html로 구현했다. 
