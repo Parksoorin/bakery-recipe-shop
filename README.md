@@ -20,7 +20,7 @@ Html, CSS, JS 사용되었다.
 
 
 # USECASE
-<img src="https://user-images.githubusercontent.com/101718825/207908862-969ead92-20ec-4f0b-b504-7f7fe4f909d9.png" width="90%"></img>
+<img src="https://user-images.githubusercontent.com/101718825/207908862-969ead92-20ec-4f0b-b504-7f7fe4f909d9.png" width="100%"></img>
 비회원 사용자 : 회원가입
 회원 사용자 : 상품 리뷰, 상품 주문, 충전, 장바구니 상품 담기, 장바구니 상품 삭제, 회원정보 수정, 회원정보 조회, 레시피 변경, 레시피 저장
 회원, 비회원 사용자 : 레시피 목록 조회, 레시피 선택, 레시피 상세 조회
