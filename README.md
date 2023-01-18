@@ -40,8 +40,8 @@ Html, CSS, JS 사용되었다.<br><br>
 
 
 
-# cookie.html
-<img src="https://user-images.githubusercontent.com/101718825/213239812-f18ad23d-2c88-4007-880c-35eb2fca3be9.jpg" width="90%"></img><br><br>
+# cake.html
+<img src="https://user-images.githubusercontent.com/101718825/213241697-f423d56b-6983-435e-aaa2-7fe0f7893bb2.png" width="90%"></img><br><br>
 
 
 
