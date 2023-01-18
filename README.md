@@ -28,20 +28,20 @@ Html, CSS, JS 사용되었다.<br><br>
 
 
 # 클래스 다이어그램
-<img src="https://user-images.githubusercontent.com/101718825/213233162-c24c251f-38b3-4a4a-9075-5eb692e0cd2b.png" width="100%"></img><br><br>
+<img src="https://user-images.githubusercontent.com/101718825/213233162-c24c251f-38b3-4a4a-9075-5eb692e0cd2b.png" width="90%"></img><br><br>
 
 
 # ER 다이어그램
-<img src="https://user-images.githubusercontent.com/101718825/213233992-d602e3d8-8cdc-4e28-a619-2fffb74d9c84.png" width="100%"></img><br><br>
+<img src="https://user-images.githubusercontent.com/101718825/213233992-d602e3d8-8cdc-4e28-a619-2fffb74d9c84.png" width="90%"></img><br><br>
 
 
 # main.html
-<img src="https://user-images.githubusercontent.com/101718825/213239928-05e47873-89fa-4a02-b321-44b8de17a0b6.JPG" width="100%"></img><br><br>
+<img src="https://user-images.githubusercontent.com/101718825/213239928-05e47873-89fa-4a02-b321-44b8de17a0b6.JPG" width="90%"></img><br><br>
 
 
 
 # cookie.html
-<img src="https://user-images.githubusercontent.com/101718825/213239812-f18ad23d-2c88-4007-880c-35eb2fca3be9.jpg" width="100%"></img><br><br>
+<img src="https://user-images.githubusercontent.com/101718825/213239812-f18ad23d-2c88-4007-880c-35eb2fca3be9.jpg" width="90%"></img><br><br>
 
 
 
