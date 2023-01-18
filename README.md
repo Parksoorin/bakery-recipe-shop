@@ -35,6 +35,16 @@ Html, CSS, JS 사용되었다.<br><br>
 <img src="https://user-images.githubusercontent.com/101718825/213233992-d602e3d8-8cdc-4e28-a619-2fffb74d9c84.png" width="100%"></img><br><br>
 
 
+# main.html
+<img src="https://user-images.githubusercontent.com/101718825/213239928-05e47873-89fa-4a02-b321-44b8de17a0b6.JPG" width="100%"></img><br><br>
+
+
+
+# cookie.html
+<img src="https://user-images.githubusercontent.com/101718825/213239812-f18ad23d-2c88-4007-880c-35eb2fca3be9.jpg" width="100%"></img><br><br>
+
+
+
 # 아쉬운 점
 프론트를 Html로 구현했다. <br>
 리액트로 구현 했으면 좀 더 편리한 다른 구성의 홈페이지를 만들 수 있지 않았을까 싶다. <br>
