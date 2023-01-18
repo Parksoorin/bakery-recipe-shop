@@ -41,15 +41,13 @@ Html, CSS, JS 사용되었다.<br><br>
 
 
 # cookie.html
-<img src="https://user-images.githubusercontent.com/101718825/213240850-11034ad2-837d-4772-846e-0c058185e88d.JPG" width="90%"></img>
-<img src="https://user-images.githubusercontent.com/101718825/213240941-d58050b3-5166-40dc-accf-5bee1aefd879.JPG" width="90%"></img><br><br>
-
+<img src="https://user-images.githubusercontent.com/101718825/213239812-f18ad23d-2c88-4007-880c-35eb2fca3be9.jpg" width="90%"></img><br><br>
 
 
 
 # cookierecipe1.html
-<img src="https://user-images.githubusercontent.com/101718825/213239812-f18ad23d-2c88-4007-880c-35eb2fca3be9.jpg" width="90%"></img><br><br>
-
+<img src="https://user-images.githubusercontent.com/101718825/213240850-11034ad2-837d-4772-846e-0c058185e88d.JPG" width="90%"></img>
+<img src="https://user-images.githubusercontent.com/101718825/213240941-d58050b3-5166-40dc-accf-5bee1aefd879.JPG" width="90%"></img><br><br>
 
 
 
