@@ -28,7 +28,12 @@ Html, CSS, JS 사용되었다.<br><br>
 
 
 # 클래스 다이어그램
-<img src="https://user-images.githubusercontent.com/101718825/213233162-c24c251f-38b3-4a4a-9075-5eb692e0cd2b.png" width="100%"></img>
+<img src="https://user-images.githubusercontent.com/101718825/213233162-c24c251f-38b3-4a4a-9075-5eb692e0cd2b.png" width="100%"></img><br><br>
+
+
+# ER 다이어그램
+<img src="https://user-images.githubusercontent.com/101718825/213233992-d602e3d8-8cdc-4e28-a619-2fffb74d9c84.png" width="100%"></img><br><br>
+
 
 # 아쉬운 점
 프론트를 Html로 구현했다. <br>
