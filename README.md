@@ -28,7 +28,7 @@ Html, CSS, JS 사용되었다.<br><br>
 
 
 # 클래스 다이어그램
-<img src="https://user-images.githubusercontent.com/101718825/207908862-969ead92-20ec-4f0b-b504-7f7fe4f909d9.png" width="100%"></img>
+<img src="https://user-images.githubusercontent.com/101718825/213233162-c24c251f-38b3-4a4a-9075-5eb692e0cd2b.png" width="100%"></img>
 
 # 아쉬운 점
 프론트를 Html로 구현했다. <br>
