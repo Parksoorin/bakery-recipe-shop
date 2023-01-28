@@ -16,7 +16,7 @@
 3. 클래스 다이어그램
 
 4. E-R 다이어그램
-![USECASE](https://github.com/Parksoorin/bakery-recipe-shop/issues/3#issue-1538298202)<br><br>
+![USECASE](https://user-images.githubusercontent.com/101718825/213233620-b2ea2a21-062c-49e2-bc35-756089bb91b5.png)<br><br>
 
 5. 구현 결과
 
