@@ -13,12 +13,13 @@
 회원, 비회원 사용자 : 레시피 목록 조회, 레시피 선택, 레시피 상세 조회<br>
 관리자 : 레시피 등록, 레시피 수정, 레시피 삭제, 회원 조회, 회원 삭제, 상품 도매, 상품 등록, 상품 수정, 상품 삭제, 공지사항 등록, 공지사항 수정, 공지사항 삭제<br><br>
 
-3. 클래스 다이어그램
+3. 클래스 다이어그램<br>
+![USECASE](https://user-images.githubusercontent.com/101718825/213232949-6bcc5444-3ba9-4d5f-bc0b-41dd64feafec.png)<br><br>
 
-4. E-R 다이어그램
+4. E-R 다이어그램<br>
 ![USECASE](https://user-images.githubusercontent.com/101718825/213233620-b2ea2a21-062c-49e2-bc35-756089bb91b5.png)<br><br>
 
-5. 구현 결과
+5. 구현 결과<br>
 
 
 <br><br>
