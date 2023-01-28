@@ -1,0 +1,192 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>Bakery Recipe & Shop</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="main/css/mainpage.css" />
+		<noscript><link rel="stylesheet" href="main/css/noscript.css"/></noscript>
+		<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    	<link rel="icon" href="favicon.ico">
+    	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+    	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		<style>
+			@import url("https://fonts.googleapis.com/css?family=Open+Sans:400,400italic,600,600italic,800,800italic");
+			body {
+        		background-color: #3a2101;
+      		}		
+			h1{
+				margin: 0%;
+        		font-family: "Open Sans", Helvetica, sans-serif;
+      		}
+			div div img:hover{
+        		cursor : pointer;
+		        opacity: 0.6; /* 밝기 조절 */
+        		transition: opacity 0.35s ease-in-out;
+      		}
+      		.box {
+        		position: relative;
+				margin: 0%;
+				padding: 0%;
+				border: 0;
+      		}
+      		.box img {
+        		width: 100%;
+      		}	
+      		.box .info {
+        		color: #fff;
+        		position: absolute; left: 0; bottom: 0;
+        		background: rgba(0,0,0,0.5);
+        		width: 100%;
+        		padding: 15px;
+		        box-sizing: border-box;
+        		opacity: 0;
+        		transition: opacity 0.35s ease-in-out;
+      		}
+      		.box:hover .info {
+        		opacity: 1;
+      		}
+		    .box .info p {
+        		text-align: center;
+        		font-size: 15px;
+        		text-overflow: ellipsis;
+        		white-space: nowrap;
+		        text-transform: uppercase;
+      		}
+		</style>
+	</head>
+	<body class="landing is-preload">
+		<!-- Page Wrapper -->
+		<div id="page-wrapper">
+			<!-- Header -->
+			<header id="header" class="alt">
+				<nav id="nav">
+					<ul>
+						<li class="special">
+							<a href="#menu" class="menuToggle"><span>Menu</span></a>
+							<div id="menu">
+								<ul>
+									<li><a href="main.html">Home</a></li>
+									<li><a href="cake2.html">Cake</a></li>
+                                    <li><a href="cookie2.html">Cookie</a></li>
+									<li><a href="bread2.html">Bread</a></li>
+									<li><a href="notice.html">notice</a></li>
+									<li><a href="mypage.html">My Page</a></li>
+									<li><a href="join.html">join</a></li>
+									<li><a href="loginpage.html">LogIn</a></li>
+
+									<!-- cart2는 로그인 시에만 보이게 -->
+									<li><a href="cart.html">cart</a></li>
+								</ul>
+							</div>
+						</li>
+					</ul>
+				</nav>
+			</header>
+			<header class="w3-display-container w3-content w3-center" style="max-width:1500px">
+				<img class="w3-image" src="cake/cakeimage1.jpg" alt="" width="1500" height="600">
+				<div class="w3-display-middle w3-padding-large w3-border w3-wide w3-text-light-grey w3-center">
+                    <h2 class="w3-hide-medium w3-hide-small w3-xxxlarge"><b>CUP CAKE</b></h2>
+                    <h3 class="w3-hide-large" style="white-space:nowrap"><b>CUP CAKE</b></h3>
+				</div>
+				
+			  <!-- Navbar (placed at the bottom of the header image) -->
+				<div class="w3-bar w3-light-grey w3-round w3-display-bottommiddle w3-hide-small" style="bottom:-16px">
+                    <a href="cake_cream.html" class="w3-bar-item w3-button">CREAM</a>
+                    <a href="cake_butter.html" class="w3-bar-item w3-button">POUND</a>
+                    <a href="cake_cup.html" class="w3-bar-item w3-button">CUP</a>
+                    <a href="cake_moose.html" class="w3-bar-item w3-button">MOOSE</a>
+				</div>
+			</header>
+
+			<!-- Main -->
+			<div class="w3-content w3-padding-large w3-margin-top">
+ 
+				<!-- Images -->
+<div class="w3-row" id="photo" style="margin-bottom:128px">
+    <div class="w3-third">
+      <div class="box">
+        <div class="img">
+          <img src="cake/cake4.jpg" onclick="location.href='#';">
+        </div>
+        <div class="info">
+          <p>머핀</p>
+        </div>
+      </div>
+      <div class="box">
+        <div class="img">
+          <img src="cake/cake20.jpg" onclick="location.href='#';">
+        </div>
+        <div class="info">
+          <p>초코 바나나 머핀</p>
+        </div>
+      </div>
+    </div>
+  
+    <div class="w3-third">
+        <div class="box">
+            <div class="img">
+              <img src="cake/cake19.jpg" onclick="location.href='#';">
+            </div>
+            <div class="info">
+              <p>밤 크럼블 머핀</p>
+            </div>
+        </div>
+        <div class="box">
+            <div class="img">
+              <img src="cake/cake21.jpg" onclick="location.href='#';">
+            </div>
+            <div class="info">
+              <p>레몬 컵케이크</p>
+            </div>
+        </div>
+    </div>
+  
+    <div class="w3-third">
+      <div class="box">
+        <div class="img">
+          <img src="cake/cake11.jpg" onclick="location.href='#';">
+        </div>
+        <div class="info">
+          <p>크림치즈 머핀</p>
+        </div>
+      </div>
+      <div class="box">
+        <div class="img">
+          <img src="cake/cake22.jpg" onclick="location.href='#';">
+        </div>
+        <div class="info">
+          <p>건포도 머핀</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+  
+
+
+
+
+			<!-- Footer -->
+				<footer id="footer">
+					<ul class="icons">
+						<li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
+						<li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
+						<li><a href="#" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
+						<li><a href="#" class="icon brands fa-dribbble"><span class="label">Dribbble</span></a></li>
+						<li><a href="#" class="icon solid fa-envelope"><span class="label">Email</span></a></li>
+					</ul>
+				</footer>
+
+		</div>
+
+		<!-- Scripts -->
+		<script src="main/js/jquery.min.js"></script>
+		<script src="main/js/jquery.scrollex.min.js"></script>
+		<script src="main/js/jquery.scrolly.min.js"></script>
+		<script src="main/js/browser.min.js"></script>
+		<script src="main/js/breakpoints.min.js"></script>
+		<script src="main/js/util.js"></script>
+		<script src="main/js/main.js"></script>
+	</body>
+</html>

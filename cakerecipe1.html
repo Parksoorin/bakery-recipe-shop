@@ -13,6 +13,13 @@
       body {
         background-color: #3a2101;
       }
+      table{
+        width: 100%;
+        height: 100px;
+        margin: auto;
+        text-align: center;
+        padding: 20px 20px 20px 20px;
+      }
       a, p {
         font-family: "Open Sans", Helvetica, sans-serif;
       }
@@ -33,7 +40,7 @@
       }
       button {
         display: inline-block;
-        padding: 12px 24px;
+        padding: 8px 14px;
         background: gray;
         font-weight: bold;
         color: #ffffff;
@@ -42,12 +49,12 @@
         border-radius: 3px;
         cursor: pointer;
         transition: ease .3s;
+        margin: 20px 0px 0px 0px;
       }
       button:hover {
         background: #91754c;
         color: #ffffff;
       }
-      
     </style>
 <body>
 <!-- Header -->
@@ -58,12 +65,12 @@
     <h3 class="w3-hide-large" style="white-space:nowrap"><b>LEMON SHORT CAKE</b></h3>
   </div>
   
-<!-- Navbar (placed at the bottom of the header image) -->
+<!-- Navbar -->
   <div class="w3-bar w3-light-grey w3-round w3-display-bottommiddle w3-hide-small" style="bottom:-16px">
     <a href="main.html" class="w3-bar-item w3-button">HOME</a>
-    <a href="cookie.html" class="w3-bar-item w3-button">COOKIE</a>
-    <a href="cake.html" class="w3-bar-item w3-button">CAKE</a>
-    <a href="bread.html" class="w3-bar-item w3-button">BREAD</a>
+    <a href="cookie2.html" class="w3-bar-item w3-button">COOKIE</a>
+    <a href="cake2.html" class="w3-bar-item w3-button">CAKE</a>
+    <a href="bread2.html" class="w3-bar-item w3-button">BREAD</a>
     <a href="cart.html" class="w3-bar-item w3-button">CART</a>
     <a href="mypage.html" class="w3-bar-item w3-button">MY PAGE</a>
   </div>
@@ -71,14 +78,14 @@
 
 <!-- Navbar on small screens -->
 <div class="w3-center w3-light-grey w3-padding-16 w3-hide-large w3-hide-medium">
-<div class="w3-bar w3-light-grey">
-  <a href="main.html" class="w3-bar-item w3-button">HOME</a>
-  <a href="cookie.html" class="w3-bar-item w3-button">COOKIE</a>
-  <a href="cake.html" class="w3-bar-item w3-button">CAKE</a>
-  <a href="bread.html" class="w3-bar-item w3-button">BREAD</a>
-  <a href="cart.html" class="w3-bar-item w3-button">CART</a>
-  <a href="mypage.html" class="w3-bar-item w3-button">MY PAGE</a>
-</div>
+  <div class="w3-bar w3-light-grey">
+    <a href="main.html" class="w3-bar-item w3-button">HOME</a>
+    <a href="cookie2.html" class="w3-bar-item w3-button">COOKIE</a>
+    <a href="cake2.html" class="w3-bar-item w3-button">CAKE</a>
+    <a href="bread2.html" class="w3-bar-item w3-button">BREAD</a>
+    <a href="cart.html" class="w3-bar-item w3-button">CART</a>
+    <a href="mypage.html" class="w3-bar-item w3-button">MY PAGE</a>
+  </div>
 </div>
     
   <!-- Page content -->
@@ -92,31 +99,43 @@
 
     <!-- form -->
     <form>
+      <br>
+      <br>
+      <br>
+      <h2><b>RECIPE</b></h2>
+      <br>
+      <table style="border: 1px solid#91754c; margin-left:auto; margin-right:auto;">
+              <tr><td>
+                <h4><b>버터 100g</b></h4>
+                <h4><b>설탕 <select name = "Appia">
+                     <option value = "1">90g(덜달게)</option>
+                     <option value = "2" selected>120g(기본)</option>
+                     <option value = "3">150g(달게)</option>
+                  </select></b></h4>
+                  
+                <h4><b>소금 1g</b></h4>
+                <h4><b>계란 1개</b></h4>
+                <h4><b>사워크림 30g</b></h4>
+                <h4><b>우유 30g</b></h4>
+                <h4><b>중력분 40g</b></h4>
+                <h4><b>박력분 <select name = "Appia">
+                  <option value = "1">50g(부드러운)</option>
+                  <option value = "2" selected>70g(기본)</option>
+                  <option value = "3">90g(단단한)</option>
+               </select></b></h4>
+                <h4><b>베이킹 파우더 3g</b></h4>
+                <h4><b>베이킹 소다 1g</b></h4>
+                <h4><b>레몬필 70g</b></h4>
+                <h4><b>레몬 제스트 1.5개분</b></h4>
+                <h4><b>아이싱용 레몬 제스트 0.5개분</b></h4>
+                <h4><b>슈가파우더 150g</b></h4>
+                <h4><b>레몬쥬스 2개분</b></h4>
+                <button>레시피 저장</button>
+              </td></tr>
+      </table>
       
-        <div id="material" style="width: 600px" class="w3-container w3-content w3-padding-64">
-            <hr>
-                <ul>
-                    <li><h4><b>버터 100g</b></h4></li>
-                    <li><h4><b>설탕 120g</b></h4></li>
-                    <li><h4><b>소금 1g</b></h4></li>
-                    <li><h4><b>계란 1개</b></h4></li>
-                    <li><h4><b>사워크림 30g</b></h4></li>
-                    <li><h4><b>우유 30g</b></h4></li>
-                    <li><h4><b>중력분 40g</b></h4></li>
-                    <li><h4><b>박력분 70g</b></h4></li>
-                    <li><h4><b>베이킹 파우더 3g</b></h4></li>
-                    <li><h4><b>베이킹 소다 1g</b></h4></li>
-                    <li><h4><b>레몬필 70g</b></h4></li>
-                    <li><h4><b>레몬 제스트 1.5개분</b></h4></li>
-                    <li><h4><b>아이싱용 레몬 제스트 0.5개분</b></h4></li>
-                    <li><h4><b>슈가 파우더 150g</b></h4></li>
-                    <li><h4><b>레몬쥬스 2개분</b></h4></li>
-                </ul>
-            <hr>
-        </div>
-        <div id="recipe" style="width: 600px" class="w3-container w3-content w3-center w3-padding-64">
-            <h2><b>레시피</b></h2>
-            <br>
+        <div id="recipe" style="width: 600px" class="w3-container w3-content w3-center w3-padding-64"> 
+          <br>
             <h4><b>1. 볼에 레몬 제스트, 버터, 설탕, 소금을 넣고 잘 풀어주세요.</b></h4>
             <h4><b>2. 계란을 넣어 유화시켜 주세요.</b></h4>
             <h4><b>3. 사워크림, 우유를 넣어 잘 섞어주세요.</b></h4>
@@ -128,9 +147,9 @@
             <h4><b>9. 중탕으로 충분히 녹여주세요.</b></h4>
             <h4><b>10. 케이크 위에 전체적으로 뿌려 코팅해 주세요.</b></h4>
         </div>
-    <button>레시피 저장</button>
     <br><br><br>
     <br><br>
+    
     </form>
       <div id="goods" class="w3-#3a2101">
         <div style="max-width: 800px" class="w3-container w3-content w3-padding-64">

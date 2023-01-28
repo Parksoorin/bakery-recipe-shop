@@ -68,9 +68,9 @@
 <!-- Navbar (placed at the bottom of the header image) -->
   <div class="w3-bar w3-light-grey w3-round w3-display-bottommiddle w3-hide-small" style="bottom:-16px">
     <a href="main.html" class="w3-bar-item w3-button">HOME</a>
-    <a href="cookie.html" class="w3-bar-item w3-button">COOKIE</a>
-    <a href="cake.html" class="w3-bar-item w3-button">CAKE</a>
-    <a href="bread.html" class="w3-bar-item w3-button">BREAD</a>
+    <a href="cookie2.html" class="w3-bar-item w3-button">COOKIE</a>
+    <a href="cake2.html" class="w3-bar-item w3-button">CAKE</a>
+    <a href="bread2.html" class="w3-bar-item w3-button">BREAD</a>
     <a href="cart.html" class="w3-bar-item w3-button">CART</a>
     <a href="mypage.html" class="w3-bar-item w3-button">MY PAGE</a>
   </div>
@@ -80,9 +80,9 @@
 <div class="w3-center w3-light-grey w3-padding-16 w3-hide-large w3-hide-medium">
 <div class="w3-bar w3-light-grey">
   <a href="main.html" class="w3-bar-item w3-button">HOME</a>
-  <a href="cookie.html" class="w3-bar-item w3-button">COOKIE</a>
-  <a href="cake.html" class="w3-bar-item w3-button">CAKE</a>
-  <a href="bread.html" class="w3-bar-item w3-button">BREAD</a>
+  <a href="cookie2.html" class="w3-bar-item w3-button">COOKIE</a>
+  <a href="cake2.html" class="w3-bar-item w3-button">CAKE</a>
+  <a href="bread2.html" class="w3-bar-item w3-button">BREAD</a>
   <a href="cart.html" class="w3-bar-item w3-button">CART</a>
   <a href="mypage.html" class="w3-bar-item w3-button">MY PAGE</a>
 </div>
@@ -107,62 +107,34 @@
       <h2><b>RECIPE</b></h2>
       <br>
       <table style="border: 1px solid#91754c; margin-left:auto; margin-right:auto;">
-        <tr>
-          <td>
-            <table>
-              <tr><td>
-                <h4><b><부드러운></b></h4>
-                <h4><b>버터 120g</b></h4>
-                <h4><b>설탕 80g</b></h4>
-                <h4><b>오렌지 잼 50g</b></h4>
-                <h4><b>노른자 1개</b></h4>
-                <h4><b>중력분 120g</b></h4>
-                <h4><b>강력분 30g</b></h4>
-                <h4><b>베이킹 파우더 3g</b></h4>
-                <h4><b>베이킹 소다 2g</b></h4>
-                <h4><b>소금 1g</b></h4>
-                <h4><b>청크 초콜릿 150g</b></h4>
-                <button>레시피 저장</button>
-              </td></tr>
-            </table>
-          </td>
-          <td>
-            <table>
-              <tr><td>
-                <h4><b><일반적인></b></h4>
-                <h4><b>버터 120g</b></h4>
-                <h4><b>설탕 80g</b></h4>
-                <h4><b>오렌지 잼 50g</b></h4>
-                <h4><b>노른자 1개</b></h4>
-                <h4><b>중력분 120g</b></h4>
-                <h4><b>강력분 30g</b></h4>
-                <h4><b>베이킹 파우더 3g</b></h4>
-                <h4><b>베이킹 소다 2g</b></h4>
-                <h4><b>소금 1g</b></h4>
-                <h4><b>청크 초콜릿 150g</b></h4>
-                <button>레시피 저장</button>
-              </td></tr>
-            </table>
-          </td>
-          <td>
-            <table>
-              <tr><td>
-                <h4><b><바삭한></b></h4>
-                <h4><b>버터 120g</b></h4>
-                <h4><b>설탕 80g</b></h4>
-                <h4><b>오렌지 잼 50g</b></h4>
-                <h4><b>노른자 1개</b></h4>
-                <h4><b>중력분 120g</b></h4>
-                <h4><b>강력분 30g</b></h4>
-                <h4><b>베이킹 파우더 3g</b></h4>
-                <h4><b>베이킹 소다 2g</b></h4>
-                <h4><b>소금 1g</b></h4>
-                <h4><b>청크 초콜릿 150g</b></h4>
-                <button>레시피 저장</button>
-              </td></tr>
-            </table>
-          </td>
-        </tr>
+        <tr><td>
+          <h4><b>버터 120g</b></h4>
+          <h4><b>설탕 <select name = "Appia">
+               <option value = "1">60g(덜달게)</option>
+               <option value = "2" selected>80g(기본)</option>
+               <option value = "3">100g(달게)</option>
+            </select></b></h4>
+            
+          <h4><b>소금 1g</b></h4>
+          <h4><b>오렌지 잼 <select name = "Appia">
+            <option value = "1">30g(연하게)</option>
+            <option value = "2" selected>50g(기본)</option>
+            <option value = "3">70g(진하게)</option>
+         </select></b></h4>
+          <h4><b>노른자 1개</b></h4>
+          <h4><b>우유 30g</b></h4>
+          <h4><b>중력분 <select name = "Appia">
+            <option value = "1">100g(부드러운)</option>
+            <option value = "2" selected>120g(기본)</option>
+            <option value = "3">140g(단단한)</option>
+         </select></b></h4>
+          <h4><b>강력분 30g</b></h4>
+          <h4><b>베이킹 파우더 3g</b></h4>
+          <h4><b>베이킹 소다 2g</b></h4>
+          <h4><b>청크 초콜릿 150g(기호에 따라 견과류로 변경 가능)</b></h4>
+          <button>레시피 저장</button>
+        </td></tr>
+
       </table>
         <div id="recipe" style="width: 600px" class="w3-container w3-content w3-center w3-padding-64">
             <br>
