@@ -27,7 +27,7 @@
 ## 구현결과 및 아쉬운 점
 + ### 구현결과<br>
   + 메인페이지(main.html)<br>
-  ![main](https://user-images.githubusercontent.com/101718825/215675620-7ce0e384-9326-4779-8419-1205b5a43d04.gif)<br>
+  ![main_-_Trim_AdobeExpress](https://user-images.githubusercontent.com/101718825/215677625-f3dd8a05-e98f-434f-b8ea-cd9deeb803ca.gif)<br>
   + 로그인, 회원가입 페이지(login.html, join.html)
   + 게시판, 게시글 작성 페이지(notice.html, noticeWrite.html)
   + 레시피 페이지(bread2.html, cookie2.html, cake2.html)
