@@ -47,8 +47,9 @@
   + 장바구니 페이지(cart.html)<br>
   ![cart](https://user-images.githubusercontent.com/101718825/215691700-ee289ca6-c78d-42bd-bc0f-957e3d6b81ab.gif)<br>
 
-  + 마이페이지(mypage.html)<br>
-  + 포인트 충전 페이지(coin.html)<br>
+  + 마이페이지, 포인트 충전 페이지, 회원정보 수정 페이지(mypage.html, coin.html, member.html)<br>
+  ![mypage](https://user-images.githubusercontent.com/101718825/215692547-3e2bf05d-eb27-409d-84fa-49617afad8b0.gif)<br>
+
   + 저장한 레시피 페이지(myrecipe.html)<br>
 <br><br>
 
