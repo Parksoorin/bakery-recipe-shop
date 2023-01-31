@@ -42,6 +42,8 @@
   ![recipemenu](https://user-images.githubusercontent.com/101718825/215689190-bbc8f73c-dbff-46b7-a68b-f04c8d4b3c6b.gif)<br>
 
   + 상세 레시피 페이지(cakerecipe.html)<br>
+  ![cakerecipe](https://user-images.githubusercontent.com/101718825/215690037-40a88fe2-5fe3-41cd-86fb-14b81d0d0ee4.gif)<br>
+
   + 장바구니 페이지(cart.html)<br>
   + 마이페이지(mypage.html)<br>
   + 포인트 충전 페이지(coin.html)<br>
