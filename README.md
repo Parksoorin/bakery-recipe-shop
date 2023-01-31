@@ -36,6 +36,8 @@
   ![notice](https://user-images.githubusercontent.com/101718825/215684311-95aa5899-b4f6-494e-875c-00c9768968f5.gif)<br>
 
   + 레시피 페이지(bread2.html, cookie2.html, cake2.html)<br>
+  ![recipe2](https://user-images.githubusercontent.com/101718825/215688057-cac929f8-2b55-438e-86fd-b0aab85562b5.gif)<br>
+
   + 레시피 페이지 상세(cake2.html)<br>
   + 상세 레시피 페이지(cakerecipe.html)<br>
   + 장바구니 페이지(cart.html)<br>
