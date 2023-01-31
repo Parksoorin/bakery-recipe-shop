@@ -32,14 +32,16 @@
   + 로그인, 회원가입 페이지(login.html, join.html)<br>
   ![login_join](https://user-images.githubusercontent.com/101718825/215683348-c47b301f-2f0a-485d-8a0b-1f0940e9193c.gif)<br>
 
-  + 게시판, 게시글 작성 페이지(notice.html, noticeWrite.html)
-  + 레시피 페이지(bread2.html, cookie2.html, cake2.html)
-  + 레시피 페이지 상세(cake2.html)
-  + 상세 레시피 페이지(cakerecipe.html)
-  + 장바구니 페이지(cart.html)
-  + 마이페이지(mypage.html)
-  + 포인트 충전 페이지(coin.html)
-  + 저장한 레시피 페이지(myrecipe.html)
+  + 게시판, 게시글 작성 페이지(notice.html, noticeWrite.html)<br>
+  ![notice](https://user-images.githubusercontent.com/101718825/215684311-95aa5899-b4f6-494e-875c-00c9768968f5.gif)<br>
+
+  + 레시피 페이지(bread2.html, cookie2.html, cake2.html)<br>
+  + 레시피 페이지 상세(cake2.html)<br>
+  + 상세 레시피 페이지(cakerecipe.html)<br>
+  + 장바구니 페이지(cart.html)<br>
+  + 마이페이지(mypage.html)<br>
+  + 포인트 충전 페이지(coin.html)<br>
+  + 저장한 레시피 페이지(myrecipe.html)<br>
 <br><br>
 
 + ### 아쉬운 점<br>
