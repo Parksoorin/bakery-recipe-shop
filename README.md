@@ -28,7 +28,10 @@
 + ### 구현결과<br>
   + 메인페이지(main.html)<br>
   ![main_-_Trim_AdobeExpress](https://user-images.githubusercontent.com/101718825/215677625-f3dd8a05-e98f-434f-b8ea-cd9deeb803ca.gif)<br>
-  + 로그인, 회원가입 페이지(login.html, join.html)
+  
+  + 로그인, 회원가입 페이지(login.html, join.html)<br>
+  ![login_join](https://user-images.githubusercontent.com/101718825/215683348-c47b301f-2f0a-485d-8a0b-1f0940e9193c.gif)<br>
+
   + 게시판, 게시글 작성 페이지(notice.html, noticeWrite.html)
   + 레시피 페이지(bread2.html, cookie2.html, cake2.html)
   + 레시피 페이지 상세(cake2.html)
