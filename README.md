@@ -51,6 +51,8 @@
   ![mypage](https://user-images.githubusercontent.com/101718825/215692547-3e2bf05d-eb27-409d-84fa-49617afad8b0.gif)<br>
 
   + 저장한 레시피 페이지(myrecipe.html)<br>
+  ![myrecipe2](https://user-images.githubusercontent.com/101718825/215693766-3ed974e7-5d62-4d60-b4bd-370f7a1ad9ee.gif)<br>
+
 <br><br>
 
 + ### 아쉬운 점<br>
